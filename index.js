@@ -5,7 +5,7 @@ app.get("/url", (req, res, next) => {
  res.json(["Tony","Lisa","Michael","Ginger","Food"]);
 });
 
-app.get("/header", (req, res, next) => {
+app.get("/test", (req, res, next) => {
  res.json(["Header"]);
 });
 
